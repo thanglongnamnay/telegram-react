@@ -504,8 +504,8 @@ class Sticker extends React.Component {
         }
 
         const stickerStyle = {
-            width: fitSize ? fitSize.width : 0,
-            height: fitSize ? fitSize.height : 0,
+            width: '50px',
+            height: '50px',
             ...style
         };
 

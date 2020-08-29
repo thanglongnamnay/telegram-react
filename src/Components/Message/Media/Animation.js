@@ -208,7 +208,7 @@ class Animation extends React.Component {
             background: 'black',
             minWidth: stretch ? fitPhotoSize.width : null,
             width: !stretch ? fitPhotoSize.width : null,
-            height: fitPhotoSize.height,
+            height: Math.min(fitPhotoSize.height, 100),
             ...style
         };
 

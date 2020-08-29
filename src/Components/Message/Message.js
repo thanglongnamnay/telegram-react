@@ -417,10 +417,10 @@ class Message extends Component {
                         'message-group-tail': !showTitle && showTail,
                         'message-bubble-hidden': !withBubble
                     })}
-                    onMouseOver={this.handleMouseOver}
+                    // onMouseOver={this.handleMouseOver}
                     onMouseOut={this.handleMouseOut}
                     onMouseDown={this.handleMouseDown}
-                    onClick={this.handleSelection}
+                    // onClick={this.handleSelection}
                     onAnimationEnd={this.handleAnimationEnd}
                     onContextMenu={this.handleOpenContextMenu}>
                     {showUnreadSeparator && <UnreadSeparator />}
